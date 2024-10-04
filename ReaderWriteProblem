@@ -1,5 +1,5 @@
-#include <iostream>
-#include <thread>
+#include <iostream>                                    // -std=c++11 
+#include <thread>                                      // -static-libgcc
 #include <mutex>
 
 std::mutex mtx; 
